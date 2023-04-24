@@ -16,7 +16,7 @@ const LekhpalHome: NextPage = () => {
     queryFn: async () => {
       const userInfo = await contract?.lekhpalMapping(connectedAccount);
       return userInfo || {
-        name: 'Krishi Block Lekhpal',
+        name: 'Landchain Lekhpal', //Krishi Block
         age: 20,
         designation: 'None',
         city: 'None'

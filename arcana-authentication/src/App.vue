@@ -12,7 +12,7 @@ export default {
     // eslint-disable-next-line no-unused-vars
     const a = await getAuthInstance()
     // Provider available at a.provider
-    window.open('//krishiblock-ethforall.vercel.app', '_self')
+    window.open('//landchain.vercel.app', '_self')
   }
 }
 </script>
